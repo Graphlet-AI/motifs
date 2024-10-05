@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "motifs"
+version = "0.0.1"
+description = "A repository of network motifs indicating risk in financial and transaction networks for fighting financial crime and corruption."
+authors = ["Russell Jurney <rjurney@graphlet.ai>"]
+repository = "https://github.com/Graphlet-AI/motifs"
+license = "MIT"
+readme = "README.md"
+packages = [
+  {include = "motifs"}
+]
+
+[project]
+name = "motifs"
+version = "0.0.1"
+
+[tool.poetry.urls]
+"Blog Post" = "https://https://blog.graphlet.ai/financial-crime-and-corruption-network-motifs-4cf2e8e10eb5"
+"Code Repository" = "https://github.com/Graphlet-AI/motifs"
+"Bug Tracker" = "https://github.com/Graphlet-AI/motifs/issues"
+
+[tool.poetry.dependencies]
+python = "^3.12.6"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+flake8 = "^7.1.1"
+isort = "^5.13.2"
+mypy = "^1.11.2"
+pytest = "^8.3.3"
+ipython = "^8.28.0"
+pre-commit = "^3.8.0"
+nbdime = "^4.0.2"
+tomlcheck = "^0.2.3"
+typeguard = "^4.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ["py312"]
+include = ["motifs", "tests"]
+
+[tool.isort]
+profile = "black"
+src_paths = ["motifs", "tests"]
+
+[tool.mypy]
+python_version = "3.12"
+mypy_path = ["motifs", "tests"]
+warn_return_any = true
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
