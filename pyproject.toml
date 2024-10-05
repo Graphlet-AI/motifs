@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "motifs"
 version = "0.0.1"
-description = "A repository of network motifs indicating risk in financial and transaction networks for fighting financial crime and corruption."
+description = "A repository of network motifs indicating risk in financial and transaction networks of financial crime and corruption."
 authors = ["Russell Jurney <rjurney@graphlet.ai>"]
 repository = "https://github.com/Graphlet-AI/motifs"
 license = "MIT"

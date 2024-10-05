@@ -2,7 +2,7 @@
 
 <center><img src="images/Graphlet-AI-Banner-with-Hypergraph-and-Womans-Head.jpg" /></center>
 
-A repository of network motifs indicating risk in financial and transaction networks for financial crime and corruption.
+A repository of network motifs indicating risk in financial and transaction networks of financial crime and corruption.
 
 ## The Blog Posts
 
