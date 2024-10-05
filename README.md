@@ -33,6 +33,16 @@ Supported operating systems:
 - Ubuntu Linux
 - Windows support is in progress
 
+## Data
+
+To run motif matching you will need to download the [Open Sanctions Graph](https://www.opensanctions.org/datasets/graph/) in the [FollowTheMoney](https://followthemoney.tech) data model. It is 72GB uncompressed.
+
+To download the entire graph into [`data/entities.ftm.json`](data/entities.ftm.json), run:
+
+```bash
+bin/download.sh
+```
+
 ## Docker Quickstart
 
 You can use the [`docker-compose.yml`](docker-compose.yml) file to test the code in this repository. To start the Docker container, run the following command:
