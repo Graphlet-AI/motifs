@@ -20,7 +20,7 @@ version = "0.0.1"
 "Bug Tracker" = "https://github.com/Graphlet-AI/motifs/issues"
 
 [tool.poetry.dependencies]
-python = "^3.12.6"
+python = "^3.12.4"
 pyspark = "^3.5.3"
 
 [tool.poetry.group.dev.dependencies]

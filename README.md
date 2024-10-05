@@ -57,7 +57,7 @@ We use a Docker image to run this project. You can also setup the environment lo
 
 ### Install Anaconda Python
 
-We use Anaconda Python, Python version 3.12.6, for this course. You can download Anaconda Python from [here](https://www.anaconda.com/products/individual). Once it is installed, you can create a new environment for this project by running the following command:
+We use Anaconda Python, Python version 3.12.4, for this course. You can download Anaconda Python from [here](https://www.anaconda.com/products/individual). Once it is installed, you can create a new environment for this project by running the following command:
 
 ```bash
 conda create -n motifs python=3.12 -y
