@@ -20,15 +20,17 @@ version = "0.0.1"
 "Bug Tracker" = "https://github.com/Graphlet-AI/motifs/issues"
 
 [tool.poetry.dependencies]
-python = "^3.12.6"
+python = "^3.12.4"
+pyspark = "^3.5.3"
+ipython = "^8.28.0"
 
+nomenklatura = "^3.13.1"
 [tool.poetry.group.dev.dependencies]
 black = "^24.8.0"
 flake8 = "^7.1.1"
 isort = "^5.13.2"
 mypy = "^1.11.2"
 pytest = "^8.3.3"
-ipython = "^8.28.0"
 pre-commit = "^3.8.0"
 nbdime = "^4.0.2"
 tomlcheck = "^0.2.3"

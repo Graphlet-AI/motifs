@@ -1,0 +1,22 @@
+services:
+  
+  cli:
+    container_name: cli
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/motifs
+    networks:
+      - motifs
+    environment:
+      - PYSPARK_DRIVER_PYTHON=ipython
+    command: tail -f /dev/null
+    restart: always
+    tty: true
+    stdin_open: true
+
+networks:
+  motifs:
+    name: motifs
+    driver: bridge
